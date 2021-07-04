@@ -1,11 +1,16 @@
 body{
     font-family: 'Bona Nova', serif;
+    margin: 0px;
 }
 .orange{
     color: orange;
 }
-section{
+.me{
     display: flex;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+
+    
 }
 h1{
     font-size: 50px;
@@ -23,4 +28,15 @@ h1{
     color: white;
     padding: 10px 40px;
     border-radius: 10px
+}
+.margin{
+    margin-top: 70px;
+    display: flex;
+}
+.dream{
+    width: 50%;
+    padding-left: 5%;
+}
+.dream img{
+    width: 70%;
 }
