@@ -1,0 +1,26 @@
+body{
+    font-family: 'Bona Nova', serif;
+}
+.orange{
+    color: orange;
+}
+section{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+}
+.font-size{
+    width: 50%;
+    padding-left: 5%;
+}
+.font-size img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon,orange);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px
+}
