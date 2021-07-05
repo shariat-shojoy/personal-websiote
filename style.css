@@ -32,6 +32,9 @@ h1{
 .margin{
     margin-top: 70px;
     display: flex;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .dream{
     width: 50%;
@@ -39,4 +42,42 @@ h1{
 }
 .dream img{
     width: 70%;
+}
+#NO{
+    margin-top: 90px;
+    margin-left:5% ;
+    
+}
+.card{
+    display: flex;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+.mnb{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 150px;
+    background-color: orange;
+    border-radius: 20px;
+    
+}
+h3{
+    color: turquoise;
+}
+#web{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#dev{
+    border-left: 7px solid;
+    border-image:linear-gradient(violet,green);
+    border-image-slice: 1;
+
+}
+.align{
+    text-align: center;
 }
